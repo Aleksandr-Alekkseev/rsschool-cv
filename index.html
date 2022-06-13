@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">  
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <header class="header header_wrapper">
+            <div class="wrapper">
+                <nav class="nav_header">
+                    <ul class="nav_list">
+                        <li class="nav_list_items"><a class="nav_link" href="#CONTACTS">Contacts</a></li>
+                        <li class="nav_list_items"><a class="nav_link" href="#SUMMARY">Summary</a></li>
+                        <li class="nav_list_items"><a class="nav_link" href="#SKILLS">Skills</a></li>
+                        <li class="nav_list_items"><a class="nav_link" href="#CODE">Code</a></li>
+                        <li class="nav_list_items"><a class="nav_link" href="#EDUCATION">Education</a></li>
+                        <li class="nav_list_items"><a class="nav_link" href="#ENGLISH">English</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+
+        <main class="main ">
+            <div class="wrapper">
+
+                <section class="name">
+                    <img class="photo" src="media/im.JPEG" alt="I" height="200" width="200">
+                    <div>
+                        <h1>ALEKSANDR ALEKSEEV</h1>
+                        <hr class="line">
+                        <h3>JUNIOR FRONT-END DEVELOPER</h3>
+                    </div>
+                </section>
+
+                <div class="container">
+                    
+                    <section class="content">
+                        <h2 id="CONTACTS">CONTACTS</h2>
+                        <ul class="contakt">
+                            <li class="contakt_items">
+                                <img src="media/location.svg" alt="location" height="25" width="25">
+                                <p class="textitems">Minsk, Belarus</p>
+                            </li>
+                            <li class="contakt_items">
+                                <img src="media/email.svg" alt="email" height="25" width="25">
+                                <p class="textitems">Email:<a href="mailto:sashaalekseev23j@gmail.com" title="email"><span class="colortext"> sashaalekseev23j@gmail.com</span></a></p>
+                            </li>
+                            <li class="contakt_items">
+                                <img src="media/github.svg" alt="github" height="25" width="25">
+                                <p class="textitems">Github:<a href="https://github.com/Aleksandr-Alekkseev" title="github"><span class="colortext">Aleksandr-Alekkseev</span></a></p>
+                            </li>
+                            <li class="contakt_items">
+                                <img src="media/telegram.svg" alt="telegram" height="25" width="25">
+                                <p class="textitems">Telegram:<a href="https://t.me/thisissashaa" title="telegram"><span class="colortext">@thisissashaa</span></a></p>
+                            </li>
+                            <li class="contakt_items">
+                                <img src="media/discord.svg" alt="discord" height="25" width="25">
+                                <p class="textitems">Discord:<a href="https://discord.com/channels/@me" title="discord"><span class="colortext">thisissasha#9310</span></a></p>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section class="content">
+                        <h2 id="SUMMARY">SUMMARY</h2>
+                        <p>I like programming. It is fascinating and interesting. I have a main job, programming is a hobby for me.
+                            I have completed several training projects and now I would like to take part in the creation of a real JavaScript project.
+                            My goal is to learn a pure JavaScript at a good level and learn the React library. I will be glad to join the creation of open source projects.
+                            I would like to work under the guidance of an experienced developer to gain practical experience.
+                        </p>
+                    </section>
+
+                    <section class="content">
+                        <h2 id="SKILLS">SKILLS</h2>
+                        <ul class="listskillss">
+                            <li class="itemskills">Web-development:<span class="colortext"> HTML5, CSS3, JavaScript</span></li>
+                            <li class="itemskills">Version control: <span class="colortext">GIT, Github</span></li>
+                            <li class="itemskills">Graphics:<span class="colortext"> Figma</span></li>
+                        </ul>
+                    </section>
+
+                    <section  class="content">
+                        <h2 id="CODE" class="code">CODE</h2>
+                        <pre>
+                            <code>
+function factorial(n) {
+  if(n &lt;0) return null;
+  if (n &lt;=1) return 1;
+  return n * factorial(n-1);
+}                           </code>
+                        </pre>
+                    </section>
+
+                    <section class="content">
+                        <h2 id="COURSES">COURSES</h2>
+                        <ul>
+                            <li class="itemskills">Stepik-Веб-<span class="colortext">Веб-разработка для начинающих: HTML и CSS</span></li>
+                            <li class="itemskills">Coursera-<span class="colortext">HTML, CSS, and Javascript for Web Developers</span></li>
+                        </ul>
+                    </section>
+
+                    <section class="content">
+                        <h2 id="EDUCATION">EDUCATION</h2>
+                        <p>International Sakharov Environmental Institute of Belarusian State University</p>
+                    </section>
+
+                    <section class="content">
+                        <h2 id="ENGLISH">ENGLISH</h2>
+                        <p>Elementary</p>
+                    </section>
+                    
+                </div>
+            </div>
+        </main>
+
+
+        <footer class="footer">
+            <div class="wrapper">
+                <div class="footer_content">
+                    <p class="footertext">&#169; 2022 <a class="colorlink" href="https://github.com/Aleksandr-Alekkseev">Aleksandr-Alekkseev</a></p>
+                    <a class="logo" href="https://rs.school/js/"><img  src="media/rs_school_js.svg" alt="logo" width="140" height="60"></a>
+                </div>
+            </div>
+            
+        </footer>
+</body>
+</html>
