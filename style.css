@@ -1,1 +1,193 @@
-rsschool-cv-html
+html {
+    scroll-behavior: smooth; 
+  }
+body{
+    margin: 0 auto;
+    padding: 0;
+    min-height: 100vh;
+    font-size: 20px;
+    font-weight: 350;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f6da;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.wrapper{
+    width: 100%; 
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+/*   HEADER START  */
+
+.header_wrapper{
+    min-height: 50px;
+}
+.header{
+    background-color: black;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav_list{
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type:none;  
+}
+.nav_list_items{
+    position: relative; 
+    padding: 15px 0; 
+}
+.nav_link{
+    font-size: 20px;
+    color: rgb(215, 181, 12);
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+}
+.nav_link:after{
+    content: "";
+    position: relative;
+    bottom: -10px;
+    display: block;
+    background: none repeat scroll 0 0 transparent;
+    height: 2.8px;
+    width: 0;
+    background: rgb(215, 181, 12);
+    transition: width 1s ease 0s, right 1s ease 0s;
+}
+.nav_link:hover::after{
+    width: 100%; 
+}
+
+/*   HEADER END  */
+
+/*   SECTION NAME START   */
+
+.name{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 15px solid black;
+    text-align: center;
+    color: rgb(215, 181, 12);
+}
+.photo{
+    border-radius: 100px;
+    
+}
+h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+h3{
+    margin-top: 20px;
+    font-weight: 300;
+}
+.line{
+    height: 1px;
+    width: 40%;
+    margin-top: 0;
+    color: black;
+    background-color: black;
+}
+
+/*   SECTION NAME END   */
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.content{
+    width: 45%;
+    margin-right: 70px;
+    border-bottom: 2px solid black;
+}
+.content:last-child{
+    border-bottom: 0;
+}
+h2{
+    color: rgb(215, 181, 12);
+    font-weight: 300;
+}    
+.contakt_items{
+    display: flex;
+    align-items: center;
+    list-style-type:none;
+    text-decoration: none;
+}
+a{
+    text-decoration: none; 
+}
+.colortext{
+    color: rgb(215, 181, 12);
+}
+.textitems{
+    padding-left: 10px;
+    margin: 5px;
+}
+ul{
+    padding-left: 20px; 
+}
+pre{
+    margin: 0px;
+    padding: 0;
+}
+.code{
+    margin-bottom: 0;
+}
+.itemskills{
+    margin-bottom: 10px;
+}
+.footer{
+    background-color: rgb(215, 181, 12);
+    min-height: 50px;
+}
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.colorlink{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+}
+.colorlink:after{
+    content: "";
+    position: relative;
+    bottom: -7px;
+    display: block;
+    background: none repeat scroll 0 0 transparent;
+    height: 2px;
+    width: 0;
+    background: black;
+    transition: width 1s ease 0s, right 1s ease 0s;
+}
+.colorlink:hover::after{
+    width: 100%; 
+     
+}
+
+.logo{
+    margin: 20px;
+}
+.footertext{
+    font-weight: 300;
+}
